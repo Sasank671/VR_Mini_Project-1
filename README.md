@@ -30,7 +30,7 @@ Dataset: DeepFashion2 (top 5 categories)
 - ~140K images  
 - Train: ~120K | Val/Test: ~20K  
 - Class imbalance handled using weighted loss  
-- 일부 models trained on sampled subsets (compute constraints)
+- Models trained on sampled subsets (compute constraints)
 
 ---
 
