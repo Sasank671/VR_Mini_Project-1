@@ -3,7 +3,7 @@
 **Akul Anhith (IMT2023558)**  
 **Ramapuram Sreenivasa Raju (IMT2023122)**  
 **Shashidhar Sai (IMT2023567)**  
-**Sasank Lingareddy (IMT2023120)**  
+**Sasank Reddy (IMT2023120)**  
 
 VR Mini Project – IIIT Bangalore
 
