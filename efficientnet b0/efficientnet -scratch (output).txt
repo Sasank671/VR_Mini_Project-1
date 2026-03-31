@@ -1,0 +1,59 @@
+1613.1s	28416	Loaded /kaggle/input/datasets/katakamshashidharsai/pklfiless/train_data.pkl  →  type=<class 'tuple'>,  len=2
+1613.1s	28417	Loaded /kaggle/input/datasets/katakamshashidharsai/pklfiless/val_data.pkl  →  type=<class 'tuple'>,  len=2
+1613.1s	28418	Loaded /kaggle/input/datasets/katakamshashidharsai/pklfiless/test_data.pkl  →  type=<class 'tuple'>,  len=2
+1613.1s	28419	
+1613.1s	28420	Sample keys: <class 'list'>
+1615.1s	28421	<class 'list'>
+1615.1s	28422	122547
+1615.1s	28423	<class 'str'> <class 'str'>
+1615.1s	28424	/kaggle/input/datasets/sasank93/vr-mini-project-pruned/pruned_train/images/168202.jpg
+1615.1s	28425	/kaggle/input/datasets/sasank93/vr-mini-project-pruned/pruned_train/images/125778.jpg
+1616.9s	28426	<class 'list'> 122547
+1616.9s	28427	<class 'list'> 122547
+1616.9s	28428	[1, 1, 0, 0, 0]
+1620.8s	28429	Dataset built: 122547 samples
+1620.8s	28430	Dataset built: 23741 samples
+1620.8s	28431	Dataset built: 21627 samples
+1623.2s	28432	Pos weights: [1.04 1.62 2.98 3.04 3.71]
+1625.0s	28433	
+1625.0s	28434	Batches — train: 1914 | val: 186
+1627.2s	28435	Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to /root/.cache/torch/hub/checkpoints/efficientnet_b0_rwightman-7f5810bc.pth
+1627.2s	28436	
+  0%|          | 0.00/20.5M [00:00<?, ?B/s]
+1627.3s	28437	
+  0%|          | 0.00/20.5M [00:00<?, ?B/s]
+ 57%|█████▋    | 11.8M/20.5M [00:00<00:00, 123MB/s]
+1627.3s	28438	
+ 57%|█████▋    | 11.8M/20.5M [00:00<00:00, 123MB/s]
+100%|██████████| 20.5M/20.5M [00:00<00:00, 148MB/s]
+1627.4s	28439	
+100%|██████████| 20.5M/20.5M [00:00<00:00, 148MB/s]
+1627.4s	28440	
+1627.4s	28441	
+1635.0s	28442	=================================================================
+1635.0s	28443	MODE: SCRATCH
+1635.0s	28444	 Ep  TrainLoss   ValLoss   MacroF1   MicroF1    Time
+1635.0s	28445	=================================================================
+2632.7s	28446	  1     0.9092    0.8580    0.5521    0.5758  877.0s ◀ best
+3443.8s	28447	  2     0.8207    0.7545    0.6156    0.6433  731.8s ◀ best
+4253.3s	28448	  3     0.7426    0.6706    0.6628    0.6855  728.5s ◀ best
+5062.8s	28449	  4     0.6757    0.6163    0.7006    0.7264  729.4s ◀ best
+5884.6s	28450	  5     0.6194    0.5477    0.7436    0.7645  739.9s ◀ best
+6711.3s	28451	  6     0.5754    0.5273    0.7498    0.7705  745.9s ◀ best
+7524.0s	28452	  7     0.5420    0.4715    0.7767    0.7954  735.5s ◀ best
+8334.6s	28453	  8     0.5131    0.4433    0.7862    0.8051  731.4s ◀ best
+9149.2s	28454	  9     0.4914    0.4523    0.7905    0.8081  735.8s ◀ best
+9968.6s	28455	 10     0.4681    0.4319    0.8036    0.8200  740.8s ◀ best
+10782.2s 28456	 11     0.4482    0.4091    0.8117    0.8276  732.9s ◀ best
+11591.8s 28457	 12     0.4287    0.3955    0.8195    0.8347  728.9s ◀ best
+12403.7s 28458	 13     0.4101    0.4007    0.8194    0.8345  732.5s
+13214.4s 28459	 14     0.3940    0.3842    0.8253    0.8404  732.3s ◀ best
+14018.4s 28460	 15     0.3778    0.3867    0.8268    0.8422  724.6s ◀ best
+14827.4s 28461	 16     0.3628    0.3790    0.8298    0.8444  732.9s ◀ best
+15639.4s 28462	 17     0.3514    0.3815    0.8311    0.8448  733.3s ◀ best
+16446.9s 28463	 18     0.3435    0.3760    0.8335    0.8473  729.7s ◀ best
+17255.6s 28464	 19     0.3372    0.3778    0.8336    0.8477  730.3s ◀ best
+18064.2s 28465	 20     0.3324    0.3770    0.8335    0.8478  731.9s
+18064.2s 28466	
+18064.2s 28467	Best Scratch Val Macro F1: 0.8336
+18066.2s 28468	
