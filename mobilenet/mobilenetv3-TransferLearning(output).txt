@@ -1,0 +1,61 @@
+611.2s	14207	/kaggle/input/datasets/raghavender76/pklfiles/test_data.pkl
+611.2s	14208	/kaggle/input/datasets/raghavender76/pklfiles/train_data.pkl
+611.2s	14209	/kaggle/input/datasets/raghavender76/pklfiles/val_data.pkl
+626.4s	14210	Device: cuda
+628.6s	14211	Config ready. NUM_CLASSES = 5
+631.2s	14212	Loaded /kaggle/input/datasets/raghavender76/pklfiles/train_data.pkl  →  type=<class 'tuple'>, len=2
+631.2s	14213	Loaded /kaggle/input/datasets/raghavender76/pklfiles/val_data.pkl  →  type=<class 'tuple'>, len=2
+631.2s	14214	Loaded /kaggle/input/datasets/raghavender76/pklfiles/test_data.pkl  →  type=<class 'tuple'>, len=2
+631.2s	14215	
+631.2s	14216	Sample path : /kaggle/input/datasets/sasank93/vr-mini-project-pruned/pruned_train/images/168202.jpg
+631.2s	14217	Sample label: [1, 1, 0, 0, 0]
+635.6s	14218	Transforms ready.
+638.0s	14219	Dataset built: 122547 samples
+638.0s	14220	Dataset built: 23741 samples
+638.0s	14221	Dataset built: 21627 samples
+640.6s	14222	Pos weights: [1.04 1.62 2.98 3.04 3.71]
+642.9s	14223	Batches — train: 1914 | val: 371
+644.0s	14224	Criterion ready.
+646.1s	14225	Helper functions ready.
+662.9s	14226	Downloading: "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth" to /root/.cache/torch/hub/checkpoints/mobilenet_v3_large-5c1a4163.pth
+662.9s	14227	
+  0%|          | 0.00/21.1M [00:00<?, ?B/s]
+663.0s	14228	
+  0%|          | 0.00/21.1M [00:00<?, ?B/s]
+ 49%|████▊     | 10.2M/21.1M [00:00<00:00, 107MB/s]
+663.1s	14229	
+ 49%|████▊     | 10.2M/21.1M [00:00<00:00, 107MB/s]
+100%|██████████| 21.1M/21.1M [00:00<00:00, 144MB/s]
+663.1s	14230	
+100%|██████████| 21.1M/21.1M [00:00<00:00, 144MB/s]
+663.1s	14231	
+663.1s	14232	
+663.1s	14233	Transfer model ready — ImageNet pretrained weights loaded.
+664.3s	14234	Stage 1: Training classifier only
+664.3s	14235	Trainable params: 494,597
+664.3s	14236	=================================================================
+664.3s	14237	MODE: TRANSFER LEARNING (2-STAGE)
+664.3s	14238	=================================================================
+664.3s	14239	
+664.3s	14240	🔥 Unfreezing entire backbone...
+664.3s	14241	
+1565.8s	14242	Epoch 1 | Train Loss: 0.8414 | Val F1: 0.6435
+2312.6s	14243	Epoch 2 | Train Loss: 0.6858 | Val F1: 0.7084
+3062.4s	14244	Epoch 3 | Train Loss: 0.6009 | Val F1: 0.7527
+3812.4s	14245	Epoch 4 | Train Loss: 0.5405 | Val F1: 0.7760
+4573.8s	14246	Epoch 5 | Train Loss: 0.5023 | Val F1: 0.7913
+5329.7s	14247	Epoch 6 | Train Loss: 0.4792 | Val F1: 0.7982
+6089.4s	14248	Epoch 7 | Train Loss: 0.4632 | Val F1: 0.8016
+6850.0s	14249	Epoch 8 | Train Loss: 0.4525 | Val F1: 0.8052
+7608.1s	14250	Epoch 9 | Train Loss: 0.4476 | Val F1: 0.8057
+8380.4s	14251	Epoch 10 | Train Loss: 0.4451 | Val F1: 0.8061
+8380.4s	14252	
+8380.4s	14253	✅ Best Transfer F1: 0.8061
+8387.9s	14254	/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+8387.9s	14255	  cells[i][c] = re.sub('\\\\\|', '|', cell)
+8388.0s	14256	/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+8388.0s	14257	  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+8388.7s	14258	[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+8390.5s	14259	[NbConvertApp] Writing 32611064 bytes to __notebook__.ipynb
+8393.1s	14260	[NbConvertApp] Converting notebook __notebook__.ipynb to html
+8395.2s	14261	[NbConvertApp] Writing 29207373 bytes to __results__.html
